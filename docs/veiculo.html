@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title id="pageTitle">Ficha do veículo — ZR1 Motors</title>
+<meta name="description" id="pageDesc" content="Confira detalhes, fotos, ficha técnica e condições de financiamento deste veículo na ZR1 Motors.">
+<link rel="icon" href="assets/img/logo.png" type="image/png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,500&family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body data-page="estoque">
+<a href="#main" class="skip-link">Pular para o conteúdo</a>
+<header class="site-header">
+  <div class="container header-row">
+    <a href="index.html" class="logo logo-img-wrap" aria-label="ZR1 Motors — Início">
+      <img src="assets/img/logo.png" alt="ZR1 Motors" class="logo-img">
+      <span>Seminovos&nbsp;selecionados</span>
+    </a>
+
+    <nav class="main-nav" id="mainNav">
+      <a href="estoque.html" data-nav="estoque">Estoque</a>
+      <a href="vender-meu-carro.html" data-nav="vender">Vender meu carro</a>
+      <a href="consignacao.html" data-nav="consignacao">Consignação</a>
+      <a href="financiamento.html" data-nav="financiamento">Financiamento</a>
+      <a href="avaliacao.html" data-nav="avaliacao">Avaliação</a>
+      <a href="faq.html" data-nav="faq">Dúvidas</a>
+    </nav>
+
+    <div class="header-actions">
+      <a href="estoque.html" class="btn btn-brass btn-sm">Ver estoque</a>
+      <button class="nav-toggle" id="navToggle" aria-label="Abrir menu" aria-expanded="false">
+        <svg id="navIconOpen" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M4 6h16M4 12h16M4 18h16"/></svg>
+        <svg id="navIconClose" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" style="display:none"><path d="M6 6l12 12M18 6L6 18"/></svg>
+      </button>
+    </div>
+  </div>
+</header>
+
+
+<main id="main">
+  <div class="container" style="padding-top:24px;">
+    <div class="breadcrumb"><a href="index.html">Início</a> / <a href="estoque.html">Estoque</a> / <span id="crumbName">Veículo</span></div>
+  </div>
+
+  <section class="section-tight" style="padding-top:8px;">
+    <div class="container">
+      <div class="two-col" style="align-items:start; grid-template-columns:1.5fr 1fr;">
+
+        <div>
+          <div class="gallery-main" id="galleryMainWrap">
+            <img id="galleryMain" src="" alt="">
+          </div>
+          <div class="gallery-thumbs" id="galleryThumbs"></div>
+
+          <div style="margin-top:40px;">
+            <div class="eyebrow">Ficha técnica</div>
+            <h2 id="vTitle" style="font-size:clamp(1.6rem,3vw,2.2rem);"></h2>
+            <div class="detail-spec-grid" id="specGrid"></div>
+
+            <h3 style="margin-top:36px;">Itens de série</h3>
+            <ul class="list-check" id="itemsList"></ul>
+
+            <h3 style="margin-top:36px;">Histórico e documentação</h3>
+            <p id="historicoText"></p>
+            <div class="badge-soft" id="laudoText" style="margin-bottom:0;"></div>
+
+            <h3 style="margin-top:36px;">Vídeo de apresentação</h3>
+            <div style="aspect-ratio:16/9; background:var(--graphite); border-radius:6px; display:flex; align-items:center; justify-content:center; color:var(--steel);">
+              <div style="text-align:center;">
+                <svg width="46" height="46" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" style="margin-bottom:8px;"><circle cx="12" cy="12" r="10"/><path d="M10 8l6 4-6 4V8Z" fill="currentColor" stroke="none"/></svg>
+                <p style="margin:0; font-size:.85rem;">Vídeo do veículo disponível mediante solicitação</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <aside>
+          <div class="sticky-buy">
+            <div class="badge-soft" id="badgeRecente" style="display:none;">Recém-anunciado</div>
+            <div class="price" id="priceMain"></div>
+            <div class="installment" id="installmentText"></div>
+
+            <a href="#" id="ctaWhatsapp" target="_blank" rel="noopener" class="btn btn-wa btn-block" style="margin-bottom:10px;">Falar no WhatsApp sobre este carro</a>
+            <a href="#" id="ctaAgendar" target="_blank" rel="noopener" class="btn btn-outline-dark btn-block" style="margin-bottom:10px;">Agendar visita / test drive</a>
+            <a href="financiamento.html" class="btn btn-ghost btn-block" style="text-align:center; justify-content:center;">Simular financiamento</a>
+
+            <div class="trust-mini">
+              <span>Laudo cautelar</span>
+              <span>Revisado</span>
+              <span>Procedência ok</span>
+              <span id="chipCidade">—</span>
+            </div>
+          </div>
+
+          <div style="margin-top:24px; background:var(--paper); border:1px solid var(--line-soft); border-radius:6px; padding:22px;">
+            <h4 style="font-family:var(--f-mono); font-size:.72rem; letter-spacing:.08em; text-transform:uppercase; color:var(--steel-dark); margin:0 0 10px;">Solicitar proposta</h4>
+            <p style="font-size:.85rem; margin-bottom:14px;">Deixe seu contato e nosso consultor te retorna com a melhor condição em minutos.</p>
+            <form id="propostaForm">
+              <div class="form-group" style="margin-bottom:10px;"><input type="text" name="nome" placeholder="Seu nome" required></div>
+              <div class="form-group" style="margin-bottom:10px;"><input type="tel" name="telefone" placeholder="WhatsApp com DDD" required></div>
+              <button type="submit" class="btn btn-brass btn-block btn-sm">Enviar proposta</button>
+            </form>
+            <div class="form-success" style="padding:10px 0;">
+              <p style="margin:0; font-size:.85rem;">Recebido! <a id="propostaFormWaLink" href="#" target="_blank" rel="noopener" style="color:var(--brass-dim); font-weight:600;">Clique aqui para confirmar pelo WhatsApp →</a></p>
+            </div>
+          </div>
+        </aside>
+      </div>
+    </div>
+  </section>
+
+  <section class="section ivory-bg">
+    <div class="container">
+      <div class="section-head reveal">
+        <div>
+          <div class="eyebrow">Você também pode gostar</div>
+          <h2>Veículos semelhantes</h2>
+        </div>
+        <a href="estoque.html" class="btn-ghost">Ver estoque completo →</a>
+      </div>
+      <div class="grid-3" id="similarGrid"></div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <div style="margin-bottom:16px;"><img src="assets/img/logo.png" alt="ZR1 Motors" style="height:46px; width:auto; filter:brightness(1.05);"></div>
+        <p style="max-width:280px;">Compra, venda e consignação de veículos seminovos com procedência garantida, laudo cautelar e negociação transparente em Londrina e região.</p>
+        <div class="social-row">
+          <a class="icon-btn" href="https://instagram.com" target="_blank" rel="noopener" aria-label="Instagram">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4.2"/><circle cx="17.2" cy="6.8" r="1.1" fill="currentColor" stroke="none"/></svg>
+          </a>
+          <a class="icon-btn" href="https://facebook.com" target="_blank" rel="noopener" aria-label="Facebook">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M13.6 21v-7.6h2.6l.4-3h-3V8.4c0-.9.2-1.5 1.5-1.5h1.6V4.2C15.9 4.1 15 4 14 4c-2.2 0-3.7 1.3-3.7 3.8v2.6H7.7v3h2.6V21h3.3Z"/></svg>
+          </a>
+          <a class="icon-btn" href="https://wa.me/5543996065534" target="_blank" rel="noopener" aria-label="WhatsApp">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.87.51 3.63 1.4 5.14L2 22l5.11-1.5a9.87 9.87 0 0 0 4.93 1.32h.01c5.46 0 9.9-4.45 9.9-9.91C21.95 6.45 17.5 2 12.04 2Zm5.8 14.02c-.24.68-1.4 1.3-1.93 1.38-.5.08-1.12.11-1.8-.11-.42-.13-.96-.3-1.65-.6-2.9-1.25-4.79-4.17-4.94-4.37-.14-.2-1.18-1.57-1.18-3 0-1.42.75-2.12 1.01-2.41.26-.28.58-.36.77-.36h.55c.18 0 .42-.02.65.5.24.55.82 1.9.89 2.04.07.14.12.3.02.49-.09.19-.14.3-.28.46-.14.17-.29.37-.42.5-.14.14-.28.29-.12.57.16.28.72 1.19 1.55 1.93 1.06.95 1.96 1.24 2.24 1.38.28.14.44.12.6-.07.16-.19.68-.79.86-1.06.18-.28.36-.23.6-.14.24.09 1.53.72 1.79.85.26.14.44.2.5.32.06.12.06.68-.18 1.36Z"/></svg>
+          </a>
+        </div>
+      </div>
+      <div>
+        <h4>Institucional</h4>
+        <a href="estoque.html">Estoque completo</a>
+        <a href="vender-meu-carro.html">Vender meu carro</a>
+        <a href="consignacao.html">Consignação</a>
+        <a href="financiamento.html">Financiamento</a>
+        <a href="faq.html">Perguntas frequentes</a>
+      </div>
+      <div>
+        <h4>Contato</h4>
+        <a href="https://wa.me/5543996065534" target="_blank" rel="noopener">(43) 99606-5534</a>
+        <a href="mailto:contato@zr1motors.com.br">contato@zr1motors.com.br</a>
+        <p>Av. Duque de Caxias, 4686<br>Londrina – PR</p>
+      </div>
+      <div>
+        <h4>Horário</h4>
+        <p>Seg a Sex — 9h às 19h</p>
+        <p>Sábado — 9h às 15h</p>
+        <p>Domingo — Fechado</p>
+      </div>
+    </div>
+
+    <div style="margin-bottom:40px; border-radius:6px; overflow:hidden; border:1px solid var(--line-soft); filter:grayscale(1) invert(0.9) contrast(0.85);">
+      <iframe title="Mapa ZR1 Motors" src="https://www.google.com/maps?q=Av.+Duque+de+Caxias,+4686,+Londrina+-+PR&output=embed" width="100%" height="220" style="border:0; display:block;" loading="lazy"></iframe>
+    </div>
+
+    <div class="footer-bottom">
+      <span>© <span id="year"></span> ZR1 Motors. Todos os direitos reservados. CNPJ 00.000.000/0001-00</span>
+      <div class="flex gap-3">
+        <a href="privacidade.html">Política de Privacidade</a>
+        <a href="privacidade.html#lgpd">LGPD</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<a href="https://wa.me/5543996065534?text=Ol%C3%A1!%20Vim%20pelo%20site%20e%20quero%20falar%20com%20a%20ZR1%20Motors." target="_blank" rel="noopener" class="wa-float" aria-label="Falar no WhatsApp agora">
+  <svg viewBox="0 0 24 24"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.87.51 3.63 1.4 5.14L2 22l5.11-1.5a9.87 9.87 0 0 0 4.93 1.32h.01c5.46 0 9.9-4.45 9.9-9.91C21.95 6.45 17.5 2 12.04 2Zm5.8 14.02c-.24.68-1.4 1.3-1.93 1.38-.5.08-1.12.11-1.8-.11-.42-.13-.96-.3-1.65-.6-2.9-1.25-4.79-4.17-4.94-4.37-.14-.2-1.18-1.57-1.18-3 0-1.42.75-2.12 1.01-2.41.26-.28.58-.36.77-.36h.55c.18 0 .42-.02.65.5.24.55.82 1.9.89 2.04.07.14.12.3.02.49-.09.19-.14.3-.28.46-.14.17-.29.37-.42.5-.14.14-.28.29-.12.57.16.28.72 1.19 1.55 1.93 1.06.95 1.96 1.24 2.24 1.38.28.14.44.12.6-.07.16-.19.68-.79.86-1.06.18-.28.36-.23.6-.14.24.09 1.53.72 1.79.85.26.14.44.2.5.32.06.12.06.68-.18 1.36Z"/></svg>
+</a>
+
+<div class="mobile-cta-bar">
+  <a href="https://wa.me/5543996065534" target="_blank" rel="noopener" class="btn btn-wa btn-block btn-sm">WhatsApp</a>
+  <a href="estoque.html" class="btn btn-brass btn-block btn-sm">Ver estoque</a>
+</div>
+
+
+<script src="assets/js/inventory.js"></script>
+<script src="assets/js/main.js"></script>
+<script>
+  const id = new URLSearchParams(location.search).get('id');
+  const v = ZR1_INVENTORY.find(x => x.id === id) || ZR1_INVENTORY[0];
+
+  document.title = `${v.marca} ${v.modelo} ${v.ano} — ZR1 Motors`;
+  document.getElementById('pageTitle').textContent = document.title;
+  document.getElementById('pageDesc').setAttribute('content', `${v.marca} ${v.modelo} ${v.ano}/${v.anoModelo}, ${zr1FormatKm(v.km)}, ${v.cambio}, ${v.combustivel}. Por ${zr1FormatPrice(v.preco)} na ZR1 Motors.`);
+  document.getElementById('crumbName').textContent = `${v.marca} ${v.modelo}`;
+  document.getElementById('vTitle').textContent = `${v.marca} ${v.modelo} ${v.ano}/${v.anoModelo}`;
+
+  document.getElementById('galleryMain').src = v.fotos[0];
+  document.getElementById('galleryMain').alt = `${v.marca} ${v.modelo}`;
+  document.getElementById('galleryThumbs').innerHTML = v.fotos.map((f,i) => `<img src="${f}" alt="Foto ${i+1}" class="${i===0?'active':''}">`).join('');
+
+  document.getElementById('specGrid').innerHTML = `
+    <div><span>Ano</span><b>${v.ano}/${v.anoModelo}</b></div>
+    <div><span>Quilometragem</span><b>${zr1FormatKm(v.km)}</b></div>
+    <div><span>Câmbio</span><b>${v.cambio}</b></div>
+    <div><span>Motor</span><b>${v.motor}</b></div>
+    <div><span>Combustível</span><b>${v.combustivel}</b></div>
+    <div><span>Cor</span><b>${v.cor}</b></div>
+    <div><span>Portas</span><b>${v.portas}</b></div>
+    <div><span>Categoria</span><b>${v.categoria}</b></div>
+    <div><span>Cidade</span><b>${v.cidade}</b></div>
+  `;
+  document.getElementById('itemsList').innerHTML = v.itens.map(i => `<li>${i}</li>`).join('');
+  document.getElementById('historicoText').textContent = v.historico;
+  document.getElementById('laudoText').textContent = 'Laudo cautelar: ' + v.laudo;
+  document.getElementById('chipCidade').textContent = v.cidade;
+
+  document.getElementById('priceMain').textContent = zr1FormatPrice(v.preco);
+  document.getElementById('installmentText').textContent = `ou a partir de ${zr1FormatPrice(v.parcelaDe)}/mês no financiamento`;
+  if(v.recente) document.getElementById('badgeRecente').style.display = 'inline-flex';
+
+  const waMsg = encodeURIComponent(`Olá! Tenho interesse no ${v.marca} ${v.modelo} ${v.ano} (${zr1FormatPrice(v.preco)}) anunciado no site. Pode me passar mais informações?`);
+  document.getElementById('ctaWhatsapp').href = `https://wa.me/5543996065534?text=${waMsg}`;
+  const agendaMsg = encodeURIComponent(`Olá! Gostaria de agendar uma visita / test drive do ${v.marca} ${v.modelo} ${v.ano}.`);
+  document.getElementById('ctaAgendar').href = `https://wa.me/5543996065534?text=${agendaMsg}`;
+
+  zr1InitLeadForm('propostaForm', {
+    title: `Proposta — ${v.marca} ${v.modelo} ${v.ano}`,
+    fields: [{name:'nome', label:'Nome'}, {name:'telefone', label:'WhatsApp'}]
+  });
+
+  const similar = ZR1_INVENTORY.filter(x => x.id !== v.id && (x.categoria === v.categoria || x.marca === v.marca)).slice(0,3);
+  const fallback = similar.length ? similar : ZR1_INVENTORY.filter(x => x.id !== v.id).slice(0,3);
+  zr1RenderGrid(document.getElementById('similarGrid'), fallback);
+</script>
+</body>
+</html>
