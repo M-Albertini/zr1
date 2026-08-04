@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://zr1motors.com.br/sitemap.xml
